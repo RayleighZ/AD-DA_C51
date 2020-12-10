@@ -56,18 +56,18 @@ include CMakeFiles/ADDA.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ADDA.dir/flags.make
 
-CMakeFiles/ADDA.dir/main.c.obj: CMakeFiles/ADDA.dir/flags.make
-CMakeFiles/ADDA.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RayJoe_ClionPrj\ADDA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ADDA.dir/main.c.obj"
-	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ADDA.dir\main.c.obj   -c E:\RayJoe_ClionPrj\ADDA\main.c
+CMakeFiles/ADDA.dir/AddaMain.c.obj: CMakeFiles/ADDA.dir/flags.make
+CMakeFiles/ADDA.dir/AddaMain.c.obj: ../AddaMain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RayJoe_ClionPrj\ADDA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ADDA.dir/AddaMain.c.obj"
+	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ADDA.dir\AddaMain.c.obj   -c E:\RayJoe_ClionPrj\ADDA\AddaMain.c
 
-CMakeFiles/ADDA.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ADDA.dir/main.c.i"
-	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\RayJoe_ClionPrj\ADDA\main.c > CMakeFiles\ADDA.dir\main.c.i
+CMakeFiles/ADDA.dir/AddaMain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ADDA.dir/AddaMain.c.i"
+	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\RayJoe_ClionPrj\ADDA\AddaMain.c > CMakeFiles\ADDA.dir\AddaMain.c.i
 
-CMakeFiles/ADDA.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ADDA.dir/main.c.s"
-	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\RayJoe_ClionPrj\ADDA\main.c -o CMakeFiles\ADDA.dir\main.c.s
+CMakeFiles/ADDA.dir/AddaMain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ADDA.dir/AddaMain.c.s"
+	E:\cb\CodeBlocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\RayJoe_ClionPrj\ADDA\AddaMain.c -o CMakeFiles\ADDA.dir\AddaMain.c.s
 
 CMakeFiles/ADDA.dir/SPI_TOOL.c.obj: CMakeFiles/ADDA.dir/flags.make
 CMakeFiles/ADDA.dir/SPI_TOOL.c.obj: ../SPI_TOOL.c
@@ -84,13 +84,13 @@ CMakeFiles/ADDA.dir/SPI_TOOL.c.s: cmake_force
 
 # Object files for target ADDA
 ADDA_OBJECTS = \
-"CMakeFiles/ADDA.dir/main.c.obj" \
+"CMakeFiles/ADDA.dir/AddaMain.c.obj" \
 "CMakeFiles/ADDA.dir/SPI_TOOL.c.obj"
 
 # External object files for target ADDA
 ADDA_EXTERNAL_OBJECTS =
 
-ADDA.exe: CMakeFiles/ADDA.dir/main.c.obj
+ADDA.exe: CMakeFiles/ADDA.dir/AddaMain.c.obj
 ADDA.exe: CMakeFiles/ADDA.dir/SPI_TOOL.c.obj
 ADDA.exe: CMakeFiles/ADDA.dir/build.make
 ADDA.exe: CMakeFiles/ADDA.dir/linklibs.rsp

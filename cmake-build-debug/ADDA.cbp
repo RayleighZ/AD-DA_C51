@@ -74,13 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/RayJoe_ClionPrj/ADDA/AddaMain.c">
+			<Option target="ADDA"/>
+		</Unit>
 		<Unit filename="E:/RayJoe_ClionPrj/ADDA/SPI_TOOL.c">
 			<Option target="ADDA"/>
 		</Unit>
 		<Unit filename="E:/RayJoe_ClionPrj/ADDA/SPI_TOOL.h">
-			<Option target="ADDA"/>
-		</Unit>
-		<Unit filename="E:/RayJoe_ClionPrj/ADDA/main.c">
 			<Option target="ADDA"/>
 		</Unit>
 		<Unit filename="E:/RayJoe_ClionPrj/ADDA/CMakeLists.txt">

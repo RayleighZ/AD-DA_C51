@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "ADDA.exe"
   "ADDA.exe.manifest"
   "ADDA.pdb"
+  "CMakeFiles/ADDA.dir/AddaMain.c.obj"
   "CMakeFiles/ADDA.dir/SPI_TOOL.c.obj"
-  "CMakeFiles/ADDA.dir/main.c.obj"
   "libADDA.dll.a"
 )
 

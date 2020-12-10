@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/RayJoe_ClionPrj/ADDA/AddaMain.c" "E:/RayJoe_ClionPrj/ADDA/cmake-build-debug/CMakeFiles/ADDA.dir/AddaMain.c.obj"
   "E:/RayJoe_ClionPrj/ADDA/SPI_TOOL.c" "E:/RayJoe_ClionPrj/ADDA/cmake-build-debug/CMakeFiles/ADDA.dir/SPI_TOOL.c.obj"
-  "E:/RayJoe_ClionPrj/ADDA/main.c" "E:/RayJoe_ClionPrj/ADDA/cmake-build-debug/CMakeFiles/ADDA.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -122,6 +122,33 @@ ADDA/fast:
 	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/build
 .PHONY : ADDA/fast
 
+AddaMain.obj: AddaMain.c.obj
+
+.PHONY : AddaMain.obj
+
+# target to build an object file
+AddaMain.c.obj:
+	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/AddaMain.c.obj
+.PHONY : AddaMain.c.obj
+
+AddaMain.i: AddaMain.c.i
+
+.PHONY : AddaMain.i
+
+# target to preprocess a source file
+AddaMain.c.i:
+	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/AddaMain.c.i
+.PHONY : AddaMain.c.i
+
+AddaMain.s: AddaMain.c.s
+
+.PHONY : AddaMain.s
+
+# target to generate assembly for a file
+AddaMain.c.s:
+	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/AddaMain.c.s
+.PHONY : AddaMain.c.s
+
 SPI_TOOL.obj: SPI_TOOL.c.obj
 
 .PHONY : SPI_TOOL.obj
@@ -149,33 +176,6 @@ SPI_TOOL.c.s:
 	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/SPI_TOOL.c.s
 .PHONY : SPI_TOOL.c.s
 
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\ADDA.dir\build.make CMakeFiles/ADDA.dir/main.c.s
-.PHONY : main.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +185,12 @@ help:
 	@echo ... ADDA
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AddaMain.obj
+	@echo ... AddaMain.i
+	@echo ... AddaMain.s
 	@echo ... SPI_TOOL.obj
 	@echo ... SPI_TOOL.i
 	@echo ... SPI_TOOL.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 
