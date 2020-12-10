@@ -6,6 +6,7 @@
 #define ADDA_SPI_TOOL_C
 #include "SPI_TOOL.h"
 #include <intrins.h>
+#include <reg52.h>
 void spiWrite(unsigned char dat){
     unsigned char i;
     CLK = 0;//时钟端置零，方便之后形成上升沿
@@ -37,7 +38,7 @@ unsigned int readAdc(unsigned char cmd){
     unsigned int adValue;
     CLK = 0;
     spiWrite(cmd);//写入指令
-    for (int i = 6; i > 0; --i);
+    for (i = 6; i > 0; --i);
     CLK = 1;
     _nop_();
     _nop_();
